@@ -1,0 +1,373 @@
+# Created at 2022-08-24T10:37:37.431
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2022-08-24T10:37:37.512
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created at 2022-08-24T10:37:37.513
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2022-08-24T10:37:37.514
+Unexpected IOException: I,1,file.encoding.pkg,sun.io
+
+
+# Created at 2022-08-24T10:37:37.515
+Unexpected IOException: I,1,java.specification.version,1.8
+
+
+# Created at 2022-08-24T10:37:37.516
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created at 2022-08-24T10:37:37.516
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1252
+
+
+# Created at 2022-08-24T10:37:37.518
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL\005Ctarget\005Ctest-classes;C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL\005Ctarget\005Cclasses;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.7.3\005Cspring-boot-starter-web-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.7.3\005Cspring-boot-starter-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.7.3\005Cspring-boot-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.7.3\005Cspring-boot-autoconfigure-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.7.3\005Cspring-boot-starter-logging-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.11\005Clogback-classic-1.2.11.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.11\005Clogback-core-1.2.11.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.17.2\005Clog4j-to-slf4j-2.17.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.2\005Clog4j-api-2.17.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.36\005Cjul-to-slf4j-1.7.36.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cannotation\005Cjakarta.annotation-api\005C1.3.5\005Cjakarta.annotation-api-1.3.5.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.30\005Csnakeyaml-1.30.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.7.3\005Cspring-boot-starter-json-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.13.3\005Cjackson-databind-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.13.3\005Cjackson-annotations-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.13.3\005Cjackson-core-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.13.3\005Cjackson-datatype-jdk8-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.13.3\005Cjackson-datatype-jsr310-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.13.3\005Cjackson-module-parameter-names-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.7.3\005Cspring-boot-starter-tomcat-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.65\005Ctomcat-embed-core-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.65\005Ctomcat-embed-el-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.65\005Ctomcat-embed-websocket-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.3.22\005Cspring-web-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.3.22\005Cspring-beans-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.3.22\005Cspring-webmvc-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.3.22\005Cspring-aop-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.3.22\005Cspring-context-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.3.22\005Cspring-expression-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.7.3\005Cspring-boot-starter-test-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.7.3\005Cspring-boot-test-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.7.3\005Cspring-boot-test-autoconfigure-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.7.0\005Cjson-path-2.7.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.4.8\005Cjson-smart-2.4.8.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C2.4.8\005Caccessors-smart-2.4.8.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C9.1\005Casm-9.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.36\005Cslf4j-api-1.7.36.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cxml\005Cbind\005Cjakarta.xml.bind-api\005C2.3.3\005Cjakarta.xml.bind-api-2.3.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cactivation\005Cjakarta.activation-api\005C1.2.2\005Cjakarta.activation-api-1.2.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.22.0\005Cassertj-core-3.22.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest\005C2.2\005Chamcrest-2.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.8.2\005Cjunit-jupiter-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.8.2\005Cjunit-jupiter-api-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.2.0\005Copentest4j-1.2.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.8.2\005Cjunit-platform-commons-1.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.8.2\005Cjunit-jupiter-params-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.8.2\005Cjunit-jupiter-engine-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.8.2\005Cjunit-platform-engine-1.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C4.5.1\005Cmockito-core-4.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.12.13\005Cbyte-buddy-1.12.13.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.12.13\005Cbyte-buddy-agent-1.12.13.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C3.2\005Cobjenesis-3.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-junit-jupiter\005C4.5.1\005Cmockito-junit-jupiter-4.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.1\005Cjsonassert-1.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.3.22\005Cspring-core-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.3.22\005Cspring-jcl-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.3.22\005Cspring-test-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.9.0\005Cxmlunit-core-2.9.0.jar;
+
+
+# Created at 2022-08-24T10:37:37.519
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2022-08-24T10:37:37.520
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2022-08-24T10:37:37.520
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2022-08-24T10:37:37.521
+Unexpected IOException: I,1,java.vendor.url,http://java.oracle.com/
+
+
+# Created at 2022-08-24T10:37:37.522
+Unexpected IOException: I,1,user.timezone,Asia/Calcutta
+
+
+# Created at 2022-08-24T10:37:37.523
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created at 2022-08-24T10:37:37.524
+Unexpected IOException: I,1,java.vm.specification.version,1.8
+
+
+# Created at 2022-08-24T10:37:37.525
+Unexpected IOException: I,1,user.country,US
+
+
+# Created at 2022-08-24T10:37:37.525
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2022-08-24T10:37:37.526
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Cbin
+
+
+# Created at 2022-08-24T10:37:37.527
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CSHARVA~1.DAL\005CAppData\005CLocal\005CTemp\005Csurefire4304576176052622844\005Csurefirebooter1433991256916208198.jar C:\005CUsers\005Csharvari.dalvi\005CAppData\005CLocal\005CTemp\005Csurefire4304576176052622844 2022-08-24T10-37-32_470-jvmRun1 surefire613695137168576405tmp surefire_01924854992245471741tmp
+
+
+# Created at 2022-08-24T10:37:37.529
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL\005Ctarget\005Ctest-classes;C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL\005Ctarget\005Cclasses;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.7.3\005Cspring-boot-starter-web-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.7.3\005Cspring-boot-starter-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.7.3\005Cspring-boot-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.7.3\005Cspring-boot-autoconfigure-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.7.3\005Cspring-boot-starter-logging-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.11\005Clogback-classic-1.2.11.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.11\005Clogback-core-1.2.11.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.17.2\005Clog4j-to-slf4j-2.17.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.2\005Clog4j-api-2.17.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.36\005Cjul-to-slf4j-1.7.36.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cannotation\005Cjakarta.annotation-api\005C1.3.5\005Cjakarta.annotation-api-1.3.5.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.30\005Csnakeyaml-1.30.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.7.3\005Cspring-boot-starter-json-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.13.3\005Cjackson-databind-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.13.3\005Cjackson-annotations-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.13.3\005Cjackson-core-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.13.3\005Cjackson-datatype-jdk8-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.13.3\005Cjackson-datatype-jsr310-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.13.3\005Cjackson-module-parameter-names-2.13.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.7.3\005Cspring-boot-starter-tomcat-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.65\005Ctomcat-embed-core-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.65\005Ctomcat-embed-el-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.65\005Ctomcat-embed-websocket-9.0.65.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.3.22\005Cspring-web-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.3.22\005Cspring-beans-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.3.22\005Cspring-webmvc-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.3.22\005Cspring-aop-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.3.22\005Cspring-context-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.3.22\005Cspring-expression-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.7.3\005Cspring-boot-starter-test-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.7.3\005Cspring-boot-test-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.7.3\005Cspring-boot-test-autoconfigure-2.7.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.7.0\005Cjson-path-2.7.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.4.8\005Cjson-smart-2.4.8.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C2.4.8\005Caccessors-smart-2.4.8.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C9.1\005Casm-9.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.36\005Cslf4j-api-1.7.36.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cxml\005Cbind\005Cjakarta.xml.bind-api\005C2.3.3\005Cjakarta.xml.bind-api-2.3.3.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cjakarta\005Cactivation\005Cjakarta.activation-api\005C1.2.2\005Cjakarta.activation-api-1.2.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.22.0\005Cassertj-core-3.22.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest\005C2.2\005Chamcrest-2.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter\005C5.8.2\005Cjunit-jupiter-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-api\005C5.8.2\005Cjunit-jupiter-api-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Copentest4j\005Copentest4j\005C1.2.0\005Copentest4j-1.2.0.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-commons\005C1.8.2\005Cjunit-platform-commons-1.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-params\005C5.8.2\005Cjunit-jupiter-params-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cjupiter\005Cjunit-jupiter-engine\005C5.8.2\005Cjunit-jupiter-engine-5.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cjunit\005Cplatform\005Cjunit-platform-engine\005C1.8.2\005Cjunit-platform-engine-1.8.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C4.5.1\005Cmockito-core-4.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.12.13\005Cbyte-buddy-1.12.13.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.12.13\005Cbyte-buddy-agent-1.12.13.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C3.2\005Cobjenesis-3.2.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-junit-jupiter\005C4.5.1\005Cmockito-junit-jupiter-4.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.1\005Cjsonassert-1.5.1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.3.22\005Cspring-core-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.3.22\005Cspring-jcl-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.3.22\005Cspring-test-5.3.22.jar;C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.9.0\005Cxmlunit-core-2.9.0.jar;
+
+
+# Created at 2022-08-24T10:37:37.530
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2022-08-24T10:37:37.531
+Unexpected IOException: I,1,user.home,C:\005CUsers\005Csharvari.dalvi
+
+
+# Created at 2022-08-24T10:37:37.532
+Unexpected IOException: I,1,user.language,en
+
+
+# Created at 2022-08-24T10:37:37.533
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-08-24T10:37:37.533
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjre1.8.0_171
+
+
+# Created at 2022-08-24T10:37:37.534
+Unexpected IOException: I,1,basedir,C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL
+
+
+# Created at 2022-08-24T10:37:37.535
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2022-08-24T10:37:37.536
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2022-08-24T10:37:37.537
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-08-24T10:37:37.538
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2022-08-24T10:37:37.539
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2022-08-24T10:37:37.540
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CSHARVA~1.DAL\005CAppData\005CLocal\005CTemp\005Csurefire4304576176052622844\005Csurefirebooter1433991256916208198.jar
+
+
+# Created at 2022-08-24T10:37:37.542
+Unexpected IOException: I,1,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Cclasses
+
+
+# Created at 2022-08-24T10:37:37.543
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2022-08-24T10:37:37.543
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-08-24T10:37:37.544
+Unexpected IOException: I,1,java.runtime.version,1.8.0_171-b11
+
+
+# Created at 2022-08-24T10:37:37.545
+Unexpected IOException: I,1,user.name,sharvari.dalvi
+
+
+# Created at 2022-08-24T10:37:37.546
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2022-08-24T10:37:37.547
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2022-08-24T10:37:37.548
+Unexpected IOException: I,1,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cendorsed
+
+
+# Created at 2022-08-24T10:37:37.549
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2022-08-24T10:37:37.550
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created at 2022-08-24T10:37:37.551
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2022-08-24T10:37:37.552
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005Csharvari.dalvi\005C.m2\005Crepository
+
+
+# Created at 2022-08-24T10:37:37.553
+Unexpected IOException: I,1,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created at 2022-08-24T10:37:37.554
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CSHARVA~1.DAL\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2022-08-24T10:37:37.556
+Unexpected IOException: I,1,java.version,1.8.0_171
+
+
+# Created at 2022-08-24T10:37:37.557
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005Csharvari.dalvi\005Ceclipse-workspace\005CSBDockerGL
+
+
+# Created at 2022-08-24T10:37:37.558
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2022-08-24T10:37:37.559
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2022-08-24T10:37:37.559
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2022-08-24T10:37:37.560
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2022-08-24T10:37:37.561
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Cbin;C:\005Cwindows\005CSun\005CJava\005Cbin;C:\005Cwindows\005Csystem32;C:\005Cwindows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005Cwindows\005Csystem32;C:\005Cwindows;C:\005Cwindows\005CSystem32\005CWbem;C:\005Cwindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005Cwindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005CDocker\005CDocker\005Cresources\005Cbin;C:\005CProgramData\005CDockerDesktop\005Cversion-bin;C:\005CUsers\005Csharvari.dalvi\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;;C:\005Cwindows\005Csystem32;;.
+
+
+# Created at 2022-08-24T10:37:37.562
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created at 2022-08-24T10:37:37.563
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2022-08-24T10:37:37.564
+Unexpected IOException: I,1,java.vm.version,25.171-b11
+
+
+# Created at 2022-08-24T10:37:37.565
+Unexpected IOException: I,1,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Clib\005Cext;C:\005Cwindows\005CSun\005CJava\005Clib\005Cext
+
+
+# Created at 2022-08-24T10:37:37.566
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2022-08-24T10:37:37.567
+Unexpected IOException: I,1,java.class.version,52.0
+
+
+# Created at 2022-08-24T10:37:37.860
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.demo.SbDockerGlApplicationTests,null,null,null
+
+
+# Created at 2022-08-24T10:37:37.927
+Unexpected IOException with stream: 10:37:37.924 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+
+
+# Created at 2022-08-24T10:37:37.941
+Unexpected IOException with stream: 10:37:37.940 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+
+
+# Created at 2022-08-24T10:37:37.984
+Unexpected IOException with stream: 10:37:37.983 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.SbDockerGlApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+
+
+# Created at 2022-08-24T10:37:37.997
+Unexpected IOException with stream: 10:37:37.997 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SbDockerGlApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2022-08-24T10:37:38.003
+Unexpected IOException with stream: 10:37:38.002 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SbDockerGlApplicationTests]: class path resource [com/example/demo/SbDockerGlApplicationTests-context.xml] does not exist
+
+
+# Created at 2022-08-24T10:37:38.004
+Unexpected IOException with stream: 10:37:38.004 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.SbDockerGlApplicationTests]: class path resource [com/example/demo/SbDockerGlApplicationTestsContext.groovy] does not exist
+
+
+# Created at 2022-08-24T10:37:38.006
+Unexpected IOException with stream: 10:37:38.005 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.SbDockerGlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-08-24T10:37:38.008
+Unexpected IOException with stream: 10:37:38.007 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.SbDockerGlApplicationTests]: SbDockerGlApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-08-24T10:37:38.057
+Unexpected IOException with stream: 10:37:38.056 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.SbDockerGlApplicationTests]
+
+
+# Created at 2022-08-24T10:37:38.130
+Unexpected IOException with stream: 10:37:38.130 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\sharvari.dalvi\eclipse-workspace\SBDockerGL\target\classes\com\example\demo\SbDockerGlApplication.class]
+
+
+# Created at 2022-08-24T10:37:38.133
+Unexpected IOException with stream: 10:37:38.133 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.SbDockerGlApplication for test class com.example.demo.SbDockerGlApplicationTests
+
+
+# Created at 2022-08-24T10:37:38.249
+Unexpected IOException with stream: 10:37:38.248 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.SbDockerGlApplicationTests]: using defaults.
+
+
+# Created at 2022-08-24T10:37:38.251
+Unexpected IOException with stream: 10:37:38.250 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-08-24T10:37:38.265
+Unexpected IOException with stream: 10:37:38.265 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+
+
+# Created at 2022-08-24T10:37:38.270
+Unexpected IOException with stream: 10:37:38.267 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+
+
+# Created at 2022-08-24T10:37:38.272
+Unexpected IOException with stream: 10:37:38.271 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1349883, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b29d1d2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7f485fda, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@28261e8e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d737b89, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8519cb4, org.springframework.test.context.event.EventPublishingTestExecutionListener@35dab4eb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2d901eb0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ba987b8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3f191845, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f049ea1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@72cc7e6f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5afa3c9]
+
+
+# Created at 2022-08-24T10:37:38.279
+Unexpected IOException with stream: 10:37:38.278 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1a75e76a testClass = SbDockerGlApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5524cca1 testClass = SbDockerGlApplicationTests, locations = '{}', classes = '{class com.example.demo.SbDockerGlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@14dd9eb7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7fa98a66, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e58a80e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6379eb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@35cabb2a, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2ef5e5e3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2022-08-24T10:37:38.538
+Unexpected IOException with stream: 
+
+
+# Created at 2022-08-24T10:37:38.540
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-08-24T10:37:38.542
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-08-24T10:37:38.543
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-08-24T10:37:38.544
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-08-24T10:37:38.545
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-08-24T10:37:38.547
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-08-24T10:37:38.550
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.3)
+
+
+# Created at 2022-08-24T10:37:38.552
+Unexpected IOException with stream: 
+
+
+# Created at 2022-08-24T10:37:38.616
+Unexpected IOException with stream: 2022-08-24 10:37:38.615  INFO 16420 --- [           main] c.e.demo.SbDockerGlApplicationTests      : Starting SbDockerGlApplicationTests using Java 1.8.0_171 on NAG1-LHP-N76154 with PID 16420 (started by sharvari.dalvi in C:\Users\sharvari.dalvi\eclipse-workspace\SBDockerGL)
+
+
+# Created at 2022-08-24T10:37:38.619
+Unexpected IOException with stream: 2022-08-24 10:37:38.619  INFO 16420 --- [           main] c.e.demo.SbDockerGlApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+
+
+# Created at 2022-08-24T10:37:40.471
+Unexpected IOException with stream: 2022-08-24 10:37:40.469  INFO 16420 --- [           main] c.e.demo.SbDockerGlApplicationTests      : Started SbDockerGlApplicationTests in 2.149 seconds (JVM running for 3.238)
+
+
+# Created at 2022-08-24T10:37:40.510
+Unexpected IOException: 5,1,com.example.demo.SbDockerGlApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-08-24T10:37:40.901
+Unexpected IOException: 6,1,com.example.demo.SbDockerGlApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-08-24T10:37:40.907
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.demo.SbDockerGlApplicationTests,null,null,null
+
+
